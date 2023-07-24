@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Pacifico&family=Plus+Jakarta+Sans:wght@400;500&display=swap');
+.container{
+  margin: 0 30%;
+ 
+  background-color: #302d43;
+}
+.logo{
+  display: flex;
+  justify-content: center;
+ 
+
+
+}
+.logo h1{
+  font-family: 'Arvo', serif;
+  color: aliceblue;
+  
+
+
+}
+img{
+  border-radius: 25px;
+  padding: 10px 10px;
+}
+.container1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  font-family: 'Arvo',serif;
+  width: 100% ;
+}
+.balancebox{
+  display: flex;
+color: aliceblue;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+font-size: 18px;
+font-weight: bold;
+
+}
+.transaction{
+  background-color: #6953f7;
+  color:  white;
+  padding: 8px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 15px;
+
+}
+.addTxncontainer{
+  display: flex;
+  flex-direction: column;
+  border:#6953f7 1px solid;
+ gap: 10px;
+ padding: 15px 20px;
+ margin: 20px;
+ width: 43%;
+  
+
+}
+.addTxncontainer input{
+  outline: none;
+  padding: 10px 12px;
+  border-radius: 6px;
+  border: 1px solid #97379b;
+  font-family: 'Arvo' serif;
+  background-color: hsl(323, 41%, 45%);
+  color :black;
+  font-weight: bolder;
+}
+.radiobox{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  gap: 1px;
+}
+label{
+  color: white;
+}
+.expensebox{
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  margin: 20px;
+}
+.box{
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  border: 1px solid #302d43;
+  font-family: 'arvo',serif;
+  padding: 26px 31px;
+ background: linear-gradient(45deg, rgb(223, 67, 197), rgb(45, 45, 109));
+ color: white;
+
+}
